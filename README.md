@@ -40,9 +40,6 @@ Here's a sample conversation after training for 20 epoch with 50000 examples, us
 ```sh
 th train.lua --cuda --dataset 50000 --hiddenSize 1000
 ```
-
-(Took 3 days to train on my GeForce GTX 780M.)
-
 For OpenCL, use `--opencl` instead of `--cuda`. To train on CPU, don't provide any of those two. Use the `--dataset NUMBER` option to control the size of the dataset. Training on the full dataset takes about 5h for a single epoch. The model will be saved to `data/model.t7` after each epoch if it has improved (error decreased).
 
 > **me:** Hello?
