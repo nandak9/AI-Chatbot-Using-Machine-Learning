@@ -3,8 +3,6 @@ Overview
 This is an attempt at implementing [Sequence to Sequence Learning with Neural Networks (seq2seq)](http://arxiv.org/abs/1409.3215) and reproducing the results in [A Neural Conversational Model](http://arxiv.org/abs/1506.05869) (aka the Google chatbot). The model is based on two [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) layers. One for encoding the input sentence into a "thought vector", and another for decoding that vector into a response. This model is called Sequence-to-sequence or seq2seq. This the code for 'Build a Chatbot' on [Youtube](https://www.youtube.com/watch?v=5_SAroSvC0E&feature=youtu.be)
 
 ![seq2seq](https://4.bp.blogspot.com/-aArS0l1pjHQ/Vjj71pKAaEI/AAAAAAAAAxE/Nvy1FSbD_Vs/s640/2TFstaticgraphic_alt-01.png)  
-_Source: http://googleresearch.blogspot.ca/2015/11/computer-respond-to-this-email.html_
-
 
 Dependencies
 ============
@@ -87,7 +85,3 @@ th -i eval.lua --cuda # Skip --cuda if you didn't train with it
 # ...
 th> say "Hello."
 ```
-
-Credits
-===========
-Credit for the vast majority of code here goes to [Marc-André Cournoyer](https://github.com/macournoyer). I've merely created a wrapper around all of the important functions to get people started.
