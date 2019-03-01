@@ -61,7 +61,7 @@ For OpenCL, use `--opencl` instead of `--cuda`. To train on CPU, don't provide a
 > **bot:** It's blue.
 > 
 > **me:** What is your job?
-> **bot:** It's not that i'm a fucking werewolf!
+> **bot:** It's not that i'm a werewolf!
 > 
 > **me:** What is the purpose of life?
 > **bot:** A gift.
