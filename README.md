@@ -87,7 +87,3 @@ th -i eval.lua --cuda # Skip --cuda if you didn't train with it
 # ...
 th> say "Hello."
 ```
-
-Credits
-===========
-Credit for the vast majority of code here goes to [Marc-André Cournoyer](https://github.com/macournoyer). I've merely created a wrapper around all of the important functions to get people started.
